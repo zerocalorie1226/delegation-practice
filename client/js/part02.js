@@ -65,6 +65,17 @@ $('.navigation > li').click(function (e) {
 
  */
 
+// 0 1 2 3
+
+// 1 2 3 4
+
+let indexing = 0;
+
+// ajax
+let template = `
+<div data-index="${indexing}"><img src="./assets/part01/visual${indexing}.jpg" alt="모던한 테이블과 화분의 조화를 표현한 공간" /></div>
+`;
+
 $('.navigation').on('click', 'li', function (e) {
   e.preventDefault();
 
