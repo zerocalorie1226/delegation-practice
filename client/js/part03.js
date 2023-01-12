@@ -20,3 +20,13 @@ const data = [
     alt: '물방을 모양의 독특한 디자인의 의자들을 나열한 공간',
   },
 ];
+
+const swiper = new Swiper('.swiper', {
+  autoplay: true,
+  loop: true,
+  speed: 2000,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
